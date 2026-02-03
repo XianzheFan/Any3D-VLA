@@ -3,7 +3,7 @@ from dataclasses import dataclass, field
 from typing import Callable, Dict, List, Optional, Tuple
 from pydantic import BaseModel, Field
 
-from model_utils.common import to_flatten_list
+from gx_utils.common import to_flatten_list
 from vla_network.utils.constant import IGNORE_INDEX
 from vla_network.config import VLADataConfig
 

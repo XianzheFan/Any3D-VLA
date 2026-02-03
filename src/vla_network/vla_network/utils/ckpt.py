@@ -5,8 +5,8 @@ from typing import Optional
 from safetensors.torch import load_file
 from torch import nn
 
-from model_utils.logger import log
-from model_utils.file_manager import get_path_exp
+from gx_utils.logger import log
+from gx_utils.file_manager import get_path_exp
 
 
 def get_ckpt_path(root: str, it: Optional[int] = None) -> str:

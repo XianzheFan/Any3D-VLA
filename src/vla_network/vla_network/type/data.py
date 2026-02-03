@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import Optional, List, Any
 import torch
 
-from model_utils.dtype import RawVLAData
+from gx_utils.dtype import RawVLAData
 
 
 @dataclass

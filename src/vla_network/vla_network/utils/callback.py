@@ -1,7 +1,7 @@
 from transformers import TrainerCallback
 from transformers.trainer import TrainingArguments
 
-from model_utils.logger import log
+from gx_utils.logger import log
 
 
 class FixTrainerStateCallback(TrainerCallback):

@@ -34,7 +34,7 @@ pip install -e .
 To run the model server:
 
 ```bash
-STORAGE_PATH=`readlink -f ../storage` python -m vla_network.scripts.serve --path ../storage/any3dvla/checkpoint/model.safetensors --port 6666
+bash serve_mono.sh
 ```
 
 For faster inference, add `--compile` to the command. It will speed up the inference around 50\% with a cost of slower model loading.

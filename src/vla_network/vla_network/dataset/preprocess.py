@@ -17,8 +17,8 @@ from mapanything.models import MapAnything  # type: ignore
 from mapanything.utils.image import preprocess_inputs  # type: ignore
 from concerto.transform import Compose as ConcertoCompose
 
-from model_utils.transform.pose import to_pose
-from model_utils.robot import RobotModel, IKSolver, get_robot_cfg
+from gx_utils.transform.pose import to_pose
+from gx_utils.robot import RobotModel, IKSolver, get_robot_cfg
 from vla_network.type import BatchVLAData, RawVLAData
 from vla_network.config import VLADataConfig, ImageTransform
 

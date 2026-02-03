@@ -1,4 +1,4 @@
-from model_utils.constant import ANYTHING_NAME # type: ignore
+from gx_utils.constant import ANYTHING_NAME # type: ignore
 
 PICK_UP_INST = lambda obj: f"pick up {obj}"
 COT_PROMPT = lambda prompt: f"In: What action should the robot take to {prompt}?\nOut: "

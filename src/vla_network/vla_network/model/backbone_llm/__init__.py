@@ -9,7 +9,7 @@ from transformers.modeling_outputs import CausalLMOutputWithPast
 from vla_network.utils.path import get_path_pretrained
 from vla_network.config import LLMConfig
 
-from model_utils.logger import log
+from gx_utils.logger import log
 
 PAD_TOKEN = "<PAD>"
 

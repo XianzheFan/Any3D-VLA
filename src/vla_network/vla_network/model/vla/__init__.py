@@ -17,12 +17,12 @@ from transformers import PreTrainedTokenizerBase, PreTrainedModel
 from transformers.modeling_outputs import CausalLMOutputWithPast
 from transformers.modeling_outputs import ModelOutput
 
-from model_utils.logger import log
-# from model_utils.profiler import profiler
-from model_utils.dtype.data import RawVLAData
-# from model_utils.dtype import RawVLAData
-from model_utils.magic.json_utils import load_json
-from model_utils.file_manager import get_path_exp_config, get_path_exp, get_path_ckpt, get_path_exp_from_ckpt
+from gx_utils.logger import log
+# from gx_utils.profiler import profiler
+from gx_utils.dtype.data import RawVLAData
+# from gx_utils.dtype import RawVLAData
+from gx_utils.magic.json_utils import load_json
+from gx_utils.file_manager import get_path_exp_config, get_path_exp, get_path_ckpt, get_path_exp_from_ckpt
 
 
 from vla_network.model.backbone_2d import Backbone2D
