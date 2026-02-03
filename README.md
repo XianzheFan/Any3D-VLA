@@ -1,6 +1,6 @@
 # Any3D-VLA
 
-[![arXiv](https://img.shields.io/badge/arXiv-2512.21970-df2a2a.svg)](https://arxiv.org/abs/2602.00807)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.00807-df2a2a.svg)](https://arxiv.org/abs/2602.00807)
 [![Static Badge](https://img.shields.io/badge/Project-Page-a)](https://xianzhefan.github.io/Any3D-VLA.github.io/)
 
 Existing Vision-Language-Action (VLA) models typically take 2D images as visual input, which limits their spatial understanding in complex scenes. How can we incorporate 3D information to enhance VLA capabilities? We conduct a pilot study across different observation spaces and visual representations. The results show that explicitly lifting visual input into point clouds yields representations that better complement their corresponding 2D representations. To address the challenges of (1) scarce 3D data and (2) the domain gap induced by cross-environment differences and depth-scale biases, we propose **Any3D-VLA**. It unifies the simulator, sensor, and model-estimated point clouds within a training pipeline, constructs diverse inputs, and learns domain-agnostic 3D representations that are fused with the corresponding 2D representations. Simulation and real-world experiments demonstrate Any3D-VLA's advantages in improving performance and mitigating the domain gap. Our project homepage is available at this https URL.
@@ -24,6 +24,9 @@ pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu1
 # Install the core package in editable mode
 pip install -e src/vla_network
 
+# Clone Concerto repo
+git clone https://github.com/Pointcept/Concerto.git
+pip install -e .
 ```
 
 ### Running the Server
@@ -49,8 +52,10 @@ Our model accepts the following instructions:
 
 ## Real-World Control Interface
 
-## Citation
+Setup real-world controller following [this repo](https://github.com/shengliangd/StereoVLA-real-world-controller).
+
+<!-- ## Citation
 
 ```bibtex
 
-```
+``` -->
