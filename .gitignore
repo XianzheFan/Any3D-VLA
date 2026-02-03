@@ -18,3 +18,4 @@ pyrightconfig.json
 cfg
 logs
 images
+.DS_Store

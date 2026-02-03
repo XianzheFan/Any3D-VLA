@@ -11,3 +11,4 @@ wandb
 venv
 .idea
 vla_data
+.DS_Store
