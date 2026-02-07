@@ -1,6 +1,6 @@
 # 🦾 Any3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds ☁️
 
-<sub>⭐️ If you find this project useful, please consider giving it a star!</sub>
+⭐️ If you find this project useful, please consider giving it a star!
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.00807-df2a2a.svg)](https://arxiv.org/abs/2602.00807)
 [![Static Badge](https://img.shields.io/badge/Project-Page-a)](https://xianzhefan.github.io/Any3D-VLA.github.io/)
@@ -62,8 +62,13 @@ Our model accepts the following instructions:
 
 Setup real-world controller following [this repo](https://github.com/XianzheFan/Any3D-VLA-real-world-controller).
 
-<!-- ## Citation
+## 📖 Citation
 
 ```bibtex
-
-``` -->
+@article{fan2026any3d,
+  title={Any3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds},
+  author={Fan, Xianzhe and Deng, Shengliang and Wu, Xiaoyang and Lu, Yuxiang and Li, Zhuoling and Yan, Mi and Zhang, Yujia and Zhang, Zhizheng and Wang, He and Zhao, Hengshuang},
+  journal={arXiv preprint arXiv:2602.00807},
+  year={2026}
+}
+```
